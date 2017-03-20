@@ -8,7 +8,7 @@ To their credit, CA Leg Info does provide [downloadable raw data](http://downloa
 * lst extensioned list files
 * dat/lob files with raw data
 
-So after reading [Legislature.gov](http://www.govtech.com/internet/Legislaturegov-Function-Trumps-Form-in-the-Quest-to-Shine-Light-on-State-Policymaking.html) in GovTech magazine I decided to have a go at making all the CA Legislative raw databanks available via modern **RESTful API** and using open source tools wherever available, minimizing cost.
+So after reading [Legislature.gov](http://www.govtech.com/internet/Legislaturegov-Function-Trumps-Form-in-the-Quest-to-Shine-Light-on-State-Policymaking.html) in GovTech magazine I decided to have a go at making all the CA Legislative raw databanks available via modern **RESTful API** and using open source tools wherever available, minimizing cost to where I can sponsor this project our of pocket while incubating.
 
 ### Results
 * All raw data from **1989 to present** proven capable of being loaded on Amazon Web Services EC2 Cloud (open source Ubuntu and MariaDB 10.x) including **full legislative texts for all revisions**
@@ -17,7 +17,7 @@ So after reading [Legislature.gov](http://www.govtech.com/internet/Legislaturego
 ### Benefits
 * Minimal cost vs. recent RFP that was estimated at over $1,000,000
 * Elastic scalable cloud resources, if the public starts to build on it, API costs scale at $3.50 per MILLION requests + bandwidth
-* TRANSPARENCY! We can now easily answer questions such as:
+* **TRANSPARENCY!** We can now easily answer questions such as:
   * How many bills were introduced?
   * How did my representatives vote? With NLP we can even assign AYE/NAY to bills by CATEGORY
   * What did the governor say when he signs a veto
