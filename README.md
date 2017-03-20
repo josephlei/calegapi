@@ -1,6 +1,6 @@
 # CA Leg API, Open Sourcing CA's Legislative Databanks
 
-My question: **how did my representatives vote on issues the last couple years**? Yes [CA Leg Info](leginfo.legislature.ca.gov) is available, but I wasn't satisfied with the search options, and as a data scientist.. the challenge remained.
+My question: **how did my representatives vote on issues the last couple years**? Yes [CA Leg Info](http://leginfo.legislature.ca.gov) is available, but I wasn't satisfied with the search options, and as a data scientist.. the challenge remained.
 
 To their credit, CA Leg Info does provide [downloadable raw data](http://downloads.leginfo.legislature.ca.gov/) which already puts them ahead of the game (read: sincere thank you to CA Leg Staff). However when unzipped, it's clear the average citizen can't use it:
 * shell/batch scripts
@@ -24,6 +24,6 @@ So after reading [Legislature.gov](http://www.govtech.com/internet/Legislaturego
   * How many bills did the governor veto by year?
   * List the bills the governor veto by year
 
-### Current Collaboration Needs":
+### Current Collaboration Needs:
 * Devs with **SWAGGER 2.0** and/or AWS API Gateway experience
 * Front end data visualizers and design gurus to tell the story
